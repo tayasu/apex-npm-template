@@ -1,0 +1,6 @@
+{
+  "description": "Apex npm template function hello",
+  "environment": {
+    "WORLD": "world"
+  }
+}

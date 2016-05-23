@@ -1,0 +1,24 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "4.3.2"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "2.3.8",
+    "mocha": "*",
+    "should": "*",
+    "eslint": "*",
+    "istanbul": "*"
+  },
+  "scripts": {
+    "test": "npm -s run-script env && npm -s run-script lint && npm -s run-script unit",
+    "unit": "istanbul `[ $COVERAGE ] && echo 'cover _mocha' || echo 'test mocha'` -- test test/test",
+    "lint": "eslint ./*.js",
+    "env" : "node ./script/generate_env_local.js",
+    "apex": "apex -C ../../"
+  }
+}

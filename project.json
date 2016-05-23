@@ -1,0 +1,11 @@
+{
+  "name": "apex-npm-template",
+  "description": "Apex npm template project",
+  "memory": 128,
+  "timeout": 5,
+  "role": "YOUR ROLE",
+  "defaultEnvironment": "dev",
+  "environment": {
+    "WORLD": "Be overwritten by function.json"
+  }
+}
