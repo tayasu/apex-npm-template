@@ -1,7 +1,7 @@
 'use strict';
 
 let should = require('should');
-let context = {};
+let context = require('./context.json');
 process.env = require('../.env_local.json');
 
 describe('Hello', () => {

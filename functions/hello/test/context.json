@@ -1,0 +1,16 @@
+{
+  "callbackWaitsForEmptyEventLoop": "[Getter/Setter]",
+  "done": "[Function]",
+  "succeed": "[Function]",
+  "fail": "[Function]",
+  "logGroupName": "CLOUD_WATCH_LOG_GROUP_NAME",
+  "logStreamName": "CLOUD_WATCH_LOG_STREAM_NAME",
+  "functionName": "apex-npm-template",
+  "memoryLimitInMB": "128",
+  "functionVersion": "8",
+  "getRemainingTimeInMillis": "[Function]",
+  "clientContext": null,
+  "invokeid": "INVOKE_ID",
+  "awsRequestId": "AWS_REQUEST_ID",
+  "invokedFunctionArn": "INVOKED_FUNCTION_ARN"
+}
